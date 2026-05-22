@@ -7,7 +7,6 @@ public class Carro extends Veiculo {
 		super(modelo, marca, preco);
 		this.portas = portas;
 	}
-	
 
 	public int getPortas() {
 		return portas;

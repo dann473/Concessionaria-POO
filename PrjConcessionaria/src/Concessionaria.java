@@ -9,6 +9,30 @@ public class Concessionaria {
 		this.nome = nome;
 	}
 	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public ArrayList<Veiculo> getEstoque() {
+		return estoque;
+	}
+
+	public void setEstoque(ArrayList<Veiculo> estoque) {
+		this.estoque = estoque;
+	}
+
+	public ArrayList<Funcionario> getFuncionarios() {
+		return funcionarios;
+	}
+
+	public void setFuncionarios(ArrayList<Funcionario> funcionarios) {
+		this.funcionarios = funcionarios;
+	}
+
 	public void adicionarVeiculo(String veiculo){
 		ArrayList<String> veiculos = new ArrayList<>();
 		
